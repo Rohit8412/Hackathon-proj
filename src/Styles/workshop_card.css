@@ -1,0 +1,104 @@
+/* jh */
+.workshop_cover {
+  height: 150px;
+  
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #d6dadc;
+  background-color: #d6dadc;
+  overflow: hidden;
+  transition: all .5s;
+  
+}
+.wrap{
+  overflow: hidden;
+}
+.workshop_container:hover .workshop_cover ,
+.workshop_container:focus .workshop_cover  {
+  transform: scale(1.2);
+}
+.workshop_title {
+  padding: 5px 30px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(243, 241, 241);
+  
+}
+.workshop_desc {
+  padding: 5px 30px;
+}
+.workshop_body b ul{
+  text-align: center;
+}
+.center{
+ text-align: center;
+}
+
+.workshop_body{
+  width: 95%;
+  height: 150px;
+  overflow-y: auto;
+  text-align: center;
+  padding:5px ;
+  
+}
+.workshop_body div{
+  font-size: 0.8rem;
+}
+.workshop_body b{
+  font-size:1rem ;
+}
+.workshop_body ul{
+  font-size: 0.7rem;
+  margin-right: 1.5rem;
+}
+.workshop_container {
+  /* -webkit-box-shadow: 2rem 2rem 2rem 2rem #F9E4D4;
+    -moz-box-shadow: 2rem 2rem 2rem 2rem #F9E4D4; */
+    box-shadow: .5rem .5rem .5rem .5rem black;
+  border: 1px solid #F9E4D4;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  height: 100%;
+  width: 80%;
+  
+}
+
+#temp{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.workshop_author{
+  position: absolute;
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  justify-content: flex-start;
+  padding:0 10px 10px;
+  padding-top: 10px;
+  width: 100%;
+  bottom: 0px;
+}
+.workshop_author img{
+  
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.author_name{
+ padding-left: 15px;
+  font-size: 0.8rem;
+}
+.author_cred{
+  font-size: 0.5rem;
+  padding-left: 15px;
+}

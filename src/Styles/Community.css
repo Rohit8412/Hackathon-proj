@@ -1,0 +1,126 @@
+.community{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.what{
+    display: flex;
+    margin-left: auto; 
+    margin-right: 0;
+   
+    justify-content: space-between;
+    background-color: #FAEEE7;
+    width: 70%;
+}
+.what-head{
+    text-align: left;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 1rem;
+    width:40%;
+}
+.what-desc{
+    text-align: left;
+    width: 60%;
+        padding: 2rem;
+    font-size: 120%;
+}
+.aim{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+   
+    margin-top: 10rem;
+    background-color: #FAEEE7;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.aim-left{
+    font-size: 5rem;
+    
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.aim-right{
+    width: 70%;
+    padding: 2rem;
+    text-align: center;
+    padding-left: 4rem;
+    font-size: 125%;
+}
+.contact{
+   margin-top: 10rem;
+   margin-bottom: 4rem;
+    display: flex;
+    margin-left: 0; 
+    margin-right: auto;
+   
+    justify-content: space-between;
+    background-color: #FAEEE7;
+    width: 70%;
+}
+.contact-desc{
+    padding: 2rem;
+    text-align: left;
+    font-size: 125%;
+}
+.contact-head{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    .what{
+       justify-content: center;
+       align-items: center;
+        width: 100%;
+         flex-direction: column;
+        margin: 0;
+      
+        margin-top: 2rem;
+    }
+    .what-head{
+        font-size: 3rem;
+         text-align: center;
+        width: 100%;
+    }
+    .what-desc{
+        width: 70%;
+    }
+    .aim{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .aim-left{
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+    .aim-right{
+        margin: 0;
+        padding: 0;
+    }
+    .contact{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .contact-desc{
+        order: 2;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-head{
+        order: 1;
+        font-size: 3rem;
+    }
+}

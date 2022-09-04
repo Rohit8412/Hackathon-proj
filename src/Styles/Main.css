@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: cursive;
+    
+}
+.main-heading{
+    align-self: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.head1{
+    padding-top: 5rem;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.486); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.head1 span{
+    background:#fff; 
+    padding:0 20px; 
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: serif;
+}
+.tagline{
+    font-size: 2rem;
+    word-spacing: .5rem;
+    padding: .5rem;
+    margin-bottom: 2rem;
+}
+.desc{
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+.main-img{
+    width: 50vw;
+    transition: all 0.5s;
+}
+#main:hover .main-img ,
+#main:focus .main-img  {
+  transform: scale(1.2);
+}
+#comeOnBoy{
+    overflow: hidden;
+}
+.main-cards{
+    margin-top: 4rem;
+    border-top: solid 2px #eeeeee;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.card-container{
+    display: flex;
+}
+.card1{
+    border: solid 2px #eeeeee;
+    text-align: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card1 h1{
+    margin-top: 1rem;
+}
+.card1 p{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+/* .post-img{
+    width: 20vw;
+    padding: 1rem;
+} */
+
+@media screen and (max-width:800px) {
+.post1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main-heading{
+    font-size: 200%;
+}
+}
+
+@media screen and (max-width:600px) {
+
+.head1 span{
+    padding:0 5px; 
+    font-size: 3rem;
+}
+.tagline{
+    font-size: 1rem;
+
+}
+.desc{
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+}
+.main-cards{
+    margin-top: 2rem;
+ 
+}
+}

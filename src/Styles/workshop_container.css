@@ -1,0 +1,27 @@
+.work_container {
+  background-color: white;
+  width: 90%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+  margin-bottom: 10rem;
+}
+#heading{
+  padding: 2rem;
+  font-size: 60px;
+  font-weight: 800;
+  background-color: #F5EEDC;
+}
+
+@media only screen and (max-width: 600px) {
+  .work_container {
+    grid-template-columns: 90%;
+  }
+  #heading{
+      font-size: 275%;
+    padding: 0.8rem;
+  }
+}

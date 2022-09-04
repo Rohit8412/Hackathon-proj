@@ -1,0 +1,36 @@
+#intro{
+    background-image: url('../images/back.png');
+    background-size: cover;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+  height: 500px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+}
+.Name{
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.content-1 h1{
+    font-size: 8rem;
+   opacity: 1;
+   color: white;
+}
+.content-1 h6{
+    font-size: 2rem;
+    opacity: 1;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+ .content-1 h1 {
+    font-size: 5rem;
+  }
+ .content-1 h4{
+      font-size: 0.7rem;
+  }
+}

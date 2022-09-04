@@ -1,0 +1,29 @@
+.discussions{
+    display: flex;
+    flex-direction: column;
+}
+.disc-head{
+    text-align: center;
+    font-size: 5rem;
+
+}
+.ask{
+    margin: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.109);
+    width: 22vw;
+    padding: .5rem;
+}
+.ask-top{
+    display: flex;
+    padding: .5rem;
+}
+.user-name{
+    margin-left: .5rem;
+}
+.ask-text{
+    padding: .5rem;
+    width: 100%;
+    background-color: antiquewhite;
+    width: 20vw;
+    opacity: .5;
+}

@@ -1,0 +1,63 @@
+
+.contri_container {
+  
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+}
+#project-heading{
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.android-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 45%;
+  margin-bottom: 2rem;
+}
+.web-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 45%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.mi-head{
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 4rem;
+  background-color: #F5EEDC;
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 900px) {
+#project-heading{
+    font-size: 275%;
+    padding: 0.8rem;
+  }
+  .android-head,.web-head,.mi-head{
+    font-size: 200%;
+    width: 100%;
+     text-align: center;
+     padding-left: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .contri_container {
+    grid-template-columns: 80%;
+  }
+ 
+}
+

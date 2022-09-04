@@ -1,0 +1,83 @@
+#footer{
+    background-color: whitesmoke;
+    width: 80vw;
+    display: flex;
+    height: 100%;
+}
+.footer-left{
+    width: 40vw;
+}
+.fields{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.field{
+    padding: 1rem;
+}
+.field input{
+    margin-top: 1rem;
+    height: 3vh;
+}
+.send{
+    margin-left: 3rem;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: .5rem;
+}
+.send-container :hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.send input{
+    background-color: white;
+    border:1px solid blue;
+    padding: .5rem;
+    font-size: 1rem;
+}
+.field textarea{
+    margin-top: 1rem;
+    height: 5vh;
+    width: 15vw;
+}
+.footer-right{
+    border: 4px solid #eee;
+    width: 40vw;
+    padding: 1rem;
+    opacity: .6;
+}
+.right{
+    border-bottom: 2px solid #eee;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+}
+.address{
+    font-size: 1.5rem;
+}
+.number,.email{
+    padding-top: 5rem;
+    font-size: 1.2rem;
+}
+.number{
+    padding-top: 2.5rem;
+}
+.social{
+    padding-top:7rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:600px) {
+    #footer{
+        flex-direction: column;
+        /* height: 100vh; */
+    }
+    .footer-left,.footer-right{
+        width: 80vw;
+    }
+    .footer-right{
+        margin-top: 1rem;
+    }
+}
